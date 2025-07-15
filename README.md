@@ -31,5 +31,15 @@ A simple Python script to convert MKV video files to MP4 format using FFmpeg. Th
    ```bash
    pip install ffmpeg-python
    ```
+   
+## Notes
+
+The script assumes the MKV file contains MP4-compatible codecs (e.g., H.264 video, AAC audio).
+
+If the input file has incompatible codecs, you may need to modify the script to include transcoding.
+
+## License
+
+MIT License
 
    
